@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.intro-container{
+    display: flex;
+    background-color: plum;
+    justify-content: center;
+    gap: 0%;
+}
+
+.intro-container .dp{
+    width: 200px;   
+    margin: 1%;
+    border: 5px solid black;
+}
+#links,
+.daily-blog,
+#intro{
+    background-color: skyblue;
+    border: 5px solid black;
+    padding: 1%;
+    margin: 2%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
